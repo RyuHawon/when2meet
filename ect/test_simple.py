@@ -7,7 +7,7 @@ DELIVERY_DAYS = 2
 
 
 def _is_holiday(day: datetime) -> bool:
-    return day.weekday() > 5
+    return day.weekday() == 6
     # 0 ~ 6 : 월 ~ 일
 
 
