@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.14"
 fastapi = "^0.132.0"
+uvicorn = "^0.41.0"
 
 
 [tool.poetry.group.dev.dependencies]
